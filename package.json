@@ -1,0 +1,28 @@
+{
+    "name": "eyes-repro",
+    "version": "1.0.0",
+    "private": true,
+    "engines": {
+        "node": "^16.14.2",
+        "npm": "^8.5.0"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "repro": "cd ./packages/package1 && npm run visual-testing"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/betaorbust/eyes-repro.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/betaorbust/eyes-repro/issues"
+    },
+    "homepage": "https://github.com/betaorbust/eyes-repro#readme",
+    "main": "index.js",
+    "description": ""
+}
